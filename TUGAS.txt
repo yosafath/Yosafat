@@ -1,0 +1,28 @@
+DDL
+CREATE TABLE Employe(
+DDL
+
+Nama_Lengkap string(15)default null
+Id_karyawan integer(10)not null
+	Usia varchart(7)default null
+Tanggal_masuk varchart(14)default null
+Jenis_Kelamin string(8)default null
+Kode_divisi string(3)not null
+PRIMARY KEY(id_karyawan)
+FOREIGN KEY(kode_division)
+)
+
+DML
+
+INSERT INTO Employe
+(kode_division, jenis_kelamin, id_karyawan, nama_lengkap)
+Values (HRD, Perempuan, 1123, Putri Marina) ;
+SELECT*FROM DIVISON
+UPDATE table employe SET nama_karyawan=
+“Bambang” WHERE kode division=HRD
+INSERT INTO Employe
+(kode_division, jenis_kelamin, id_karyawan, nama_lengkap)
+Values(HRD, perempuan, 1123, Putri Marina)
+
+
+
